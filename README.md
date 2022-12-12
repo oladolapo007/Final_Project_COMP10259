@@ -1,4 +1,4 @@
-# Final_Project_COMP10259
+# Final_Project_COMP10259 SUBMITTED BY OGUNSIPEO AND YVANF
 
 Understand web pages in a browser as software running in an interpreted environment rather than static entities.
 Apply software development strategies and techniques to solve problems through a web interface using JavaScript.
