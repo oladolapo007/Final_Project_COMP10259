@@ -165,6 +165,7 @@ body {
 
 .header .nav {
   padding: 0 15px;
+  background-color: red;
 }
 
 .header .nav ul {
@@ -412,10 +413,10 @@ body {
   color: teal;
 }
 
-#submit {
+#button-section .submit {
   background-color: red;
 }
-#submit::after {
+#button-section .submit::after {
   content: "Submit";
   text-transform: uppercase;
 }

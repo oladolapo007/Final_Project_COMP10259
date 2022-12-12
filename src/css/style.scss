@@ -160,6 +160,7 @@ body{
 
 .header .nav{
 	padding:0 15px;
+	background-color: $backgroundColor;
 }
 .header .nav ul{
 	list-style: none;
@@ -387,7 +388,7 @@ body{
     color:teal;
 }
 
-#button-section{
+#button-section .submit{
 	background-color: $buttonColor;
 	&::after{
 		content: "Submit";
