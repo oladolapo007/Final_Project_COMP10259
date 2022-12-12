@@ -387,7 +387,7 @@ body{
     color:teal;
 }
 
-#submit{
+#button-section{
 	background-color: $buttonColor;
 	&::after{
 		content: "Submit";

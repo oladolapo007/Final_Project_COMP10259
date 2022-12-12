@@ -83,7 +83,7 @@ h1{
 #button-section {
     background-color: red;
   }
-  #button::after {
+  #button-section::after {
     content: "Submit";
     text-transform: uppercase;
   }
