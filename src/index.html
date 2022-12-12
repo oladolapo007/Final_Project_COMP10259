@@ -1,0 +1,186 @@
+<!-- Your main page should go here -->
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Write your species name under the title -->
+	<title> Killer Whales </title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$(".header").css("position", "fixed");
+			$("#btnStopSlideshow").click(function(){
+				$("#slideshow").toggle("slow")
+			});
+		});
+	</script>
+</head>
+
+<body>
+<!-- Header Start -->
+<header class="header">
+	<div class="container">
+		<div class="row justify-content-between align-items-center">
+			<div class="fish-name">
+                <!-- Write your species name under the anchor tag -->
+				<video class="bg-video" autoplay loop>
+					<source src="img/orca3.mp4" type="video/mp4">
+				</video>
+				<a href="index.html"> Orcas</a>
+			</div>
+			<nav class="nav">
+				<ul>
+					<li><a href="#home">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#predators">Prey & Predators</a></li>
+					<li><a href="#gallery">Gallery</a></li>
+					<li><a href="#count">World Count</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+					<li><a href="honesty.html">Honesty Declaration</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</header>
+<!-- Header End -->
+
+<!-- Home Section Start -->
+<section class="home-section" id="home">
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="home-content">
+				<h1>Killer Whales</h1>
+				<h4>Orcinus Orca</h4>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- Home Section End -->
+	
+<!-- About Section Start -->
+<section class="about-section" id="about">
+	<div class="container">
+		<div class="row">
+			<div class="about-img">
+				<div class="img-box">
+					<img src="img/orca-about.jpg" alt="an orca underwater">
+				</div>
+			</div>
+		<div class="about-content">
+			<div class="row">
+				<div class="section-title">
+					<h1>About Killer Whales</h1>
+				</div>
+			</div>
+			<p>Orcas, or killer whales, are deadly and beautiful apex predators 
+				that lurk in every ocean. Orcas (Orcinus orca) are often called 
+				killer whales, even though they almost never attack humans. 
+				In fact, the killer whale name was originally "whale killer," 
+				as ancient sailors saw them hunting in groups to take down large whales, 
+				Killer whales are the most widely distributed mammals, other than humans 
+				and possibly brown rats. 
+				They live in every ocean around the world and have adapted to different 
+				climates, from the warm waters near the equator to the icy waters of the 
+				North and South Pole regions. </p>
+		</div>
+		<div class="wave">
+			<img src="img/bluewave.png" alt="wave animation">
+
+		</div>
+		</div>
+	</div>
+</section>
+<!-- About Section End -->
+
+<!-- Prey & Predators Section Start -->
+<section class="predators-section" id="predators">
+	<div class="container">
+		<div class="row">
+			<div class="section-title">
+				<h1>Preys and Predators</h1>
+			</div>
+		</div>
+	<div>
+		<p>Killer whales are apex predators, which means they have no natural predators.
+			They hunt in packs, much like wolves, which are also at the top of their food chain.
+			<br><br>
+			Killer whales feed on a variety of fish, including salmon, herring, sharks, and stingrays. 
+			Some whales will follow the migration of salmon, which can account for up to 96% of their diet. 
+			Killer whales will also prey on herring, using “carousel feeding.” 
+			The whales herd the fish into a small group, and attack them using their tail fins. 
+			When hunting sharks, killer whales appear to target the animal’s oil-rich liver.
+			<br><br>
+		</p>
+	</div>
+		<div class="video">
+			<iframe width="852" height="480" src="https://www.youtube-nocookie.com/embed/fs8ZveNZQ8g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+		<div>
+			<p>
+				<br>
+				Some killer whales also prey on marine mammals, from seals, to whales, to smaller dolphins. 
+				When hunting large whale species, killer whales target young or sick individuals. 
+				They will isolate and drown their prey before feeding. 
+				 When killer whales hunt smaller marine mammals they will toss, ram, or otherwise disable them.
+			</p>
+		</div>
+	</div>
+</section>
+<!-- Prey & Predators Section End -->
+
+<!-- Gallery Section Start -->
+<section class="gallery-section" id="gallery">
+	<div class="container">
+		<div class="row">
+			<div class="section-title">
+				<h1>Gallery</h1>
+			</div>
+		</div>
+		<div class="scrolling-wrapper">
+			<div class="card">
+				<img height="640" width="360" src="img/pod.jpg" alt="pod of orcas on the hunt">
+			</div>
+			<div class="card">
+				<img height="640" width="360" src="img/teeth.png" alt="jaws and teeth of the orca">
+			</div>
+			<div class="card">
+				<img height="640" width="360" src="img/outofwater.jpg" alt="an orca leaping out of the water">
+			</div>
+			<div class="card">
+				<img height="640" width="360" src="img/momandchild.png" alt="an adult orca and her child">
+			</div>
+		  </div>
+		  <div class="video">
+			<iframe width="852" height="480" src="https://www.youtube-nocookie.com/embed/4sklWzlKhYI?start=5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		  </div>
+	</div>
+</section>
+<!-- Gallery Section End --> 
+
+<!-- World Count Section Start -->
+ <section class="count-section" id="count">
+	<div class="container">
+		<div class="section-title">
+			<h1>World Count</h1>
+		</div>
+			<div class="home-content">
+				<h2>50,000</h2>
+				<h3>estimated killer whales globally</h3>
+				<h2>2,500</h2>
+				<h3>in the eastern North Pacific Ocean</h3>
+				<h2>75</h2>
+				<h3>Southern Residents in the eastern North Pacific Ocean</h3>
+				<h4>under NOAA research and conservation program</h4>
+			</div>
+	</div>
+</section>
+<!-- World Count Section End -->
+<div>
+	<br><br><br>
+</div>
+ <!-- Write your name under the para tag -->
+<p class="copyright">&copy; 2022 Ogunsipe-Fajardo Group.</p>
+
+</body>
+</html>
